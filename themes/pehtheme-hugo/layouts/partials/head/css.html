@@ -1,11 +1,2 @@
-{{- with resources.Get "css/main.css" }}
-  {{- if eq hugo.Environment "development" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{- else }}
-    {{- $css := . | minify }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  {{- end }}
-{{- else }}
-  <!-- CSS not found, trying static fallback -->
-  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-{{- end }}
+{{- $css := resources.Get "css/main.css" | minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
