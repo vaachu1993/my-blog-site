@@ -3,9 +3,9 @@
 <div class="py-14">
 
 	<div class="mb-14">	
-
-		<img class="rounded-3xl" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
-
+		{{- if .Params.image }}
+		<img class="rounded-3xl w-full max-w-2xl mx-auto h-64 md:h-80 object-cover" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+		{{- end }}
 	</div>
 
 
