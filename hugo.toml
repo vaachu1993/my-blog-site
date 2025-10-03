@@ -1,4 +1,4 @@
-baseURL = 'https://pehtheme-hugo.netlify.app/'
+baseURL = 'https://vaachu1993.github.io/my-blog-site/'
 languageCode = 'vi-vn'
 title = 'Blog Lập trình'
 theme = 'pehtheme-hugo'
