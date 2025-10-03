@@ -2,8 +2,14 @@ baseURL = 'https://vaachu1993.github.io/my-blog-site/'
 languageCode = 'vi-vn'
 title = 'Blog Lập trình'
 theme = 'pehtheme-hugo'
+
+# GitHub Pages configuration
 canonifyURLs = true
 relativeURLs = false
+uglyURLs = false
+
+# Ensure proper asset handling
+publishDir = "public"
 
 summaryLength = 20 # <- 20 words are approximately 160 characters
 googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
