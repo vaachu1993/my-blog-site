@@ -2,13 +2,6 @@
 
 <div class="py-14">
 
-	<div class="mb-14">	
-		{{- if .Params.image }}
-		<img class="rounded-3xl w-full max-w-2xl mx-auto h-64 md:h-80 object-cover" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
-		{{- end }}
-	</div>
-
-
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
 		<article class="md:col-span-2 prose lg:prose-lg">
@@ -18,6 +11,31 @@
 			<h1 class="text-4xl font-bold">{{ .Title }}</h1>
 		
 		</header>
+
+		<figure id="featureimage" class="rounded-xl aspect-video mb-14">
+
+			{{- if .Params.image }}
+
+				{{- if ( strings.HasPrefix .Params.image "http" ) }}
+
+					<img class="rounded-lg" src="{{ .Params.image }}" alt="{{ .Params.title }}">
+
+				{{- else }}
+
+					{{- with $image := resources.Get .Params.image }}
+						{{- $image := $image.Resize "750x" }}
+						<img class="rounded-lg" src="{{ $image.Permalink }}" alt="{{ .Params.title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+					{{- end }}
+
+				{{- end }}
+
+			{{- end }}
+
+			{{- if ( isset .Params "caption" ) }}
+				<figcaption class="text-center italic text-xs">{{ .Params.caption }}</figcaption>
+			{{- end }}
+
+		</figure>
 
 		<div id="content" class="prose lg:prose-lg">
 
