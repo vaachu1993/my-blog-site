@@ -20,10 +20,12 @@
         {{- $name := .Site.Params.Author.name -}}
 
         {{- with $avatar := resources.Get .Site.Params.Author.avatar }}
-
-        <img class="w-12 h-12 bg-black rounded-full" src="{{ $avatar.Permalink }}" alt="{{ $name }} avatar" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
-
-        {{ end -}}
+        <img class="w-12 h-12 bg-gray-200 rounded-full object-cover" src="{{ $avatar.Permalink }}" alt="{{ $name }} avatar" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
+        {{- else }}
+        <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+          <span class="text-gray-600 font-bold">{{ substr $name 0 1 }}</span>
+        </div>
+        {{- end }}
         
         <ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
           
