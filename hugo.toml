@@ -3,11 +3,6 @@ languageCode = 'vi-vn'
 title = 'Blog Lập trình'
 theme = 'pehtheme-hugo'
 
-# GitHub Pages configuration
-canonifyURLs = true
-relativeURLs = false
-uglyURLs = false
-
 # Ensure proper asset handling
 publishDir = "public"
 
@@ -23,7 +18,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	[params.author]
 		name = 'Minh Tri dev'
 		bio = 'Lập trình viên yêu thích Java & JavaScript'
-		avatar = 'images/avatar.png'
+		avatar = '/images/avatar.png'
 		twitter = ''
 		
 
