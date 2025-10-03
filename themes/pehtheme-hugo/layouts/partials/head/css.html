@@ -2,8 +2,10 @@
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
-    {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-    {{- end }}
+    {{- $css := . | minify }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{- end }}
+{{- else }}
+  <!-- CSS not found, trying static fallback -->
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 {{- end }}
