@@ -1,38 +1,32 @@
 ---
-title: "Về Blog Lập Trình"
+title: "Về tôi"
 date: 2025-10-02
 image: images/anhaboutme.jpg
-description: "Giới thiệu về Blog Lập Trình - nơi chia sẻ kiến thức Java và JavaScript bằng tiếng Việt"
+description: "Sinh viên IT đam mê lập trình, chia sẻ kiến thức về Java và JavaScript"
 ---
 
-# Chào mừng đến với Blog Lập Trình! 👋
+# Xin chào! 👋
 
 ## Về tôi
 
-Xin chào! Tôi là **Minh Tri**, một lập trình viên đam mê với Java và JavaScript. Với nhiều năm kinh nghiệm trong ngành công nghệ thông tin, tôi muốn chia sẻ những kiến thức và kinh nghiệm thực tế để giúp cộng đồng lập trình viên Việt Nam phát triển.
+Mình là **Minh Trí**, sinh viên năm 4 ngành **Công nghệ Thông tin** tại **Đại học Công nghệ TP.HCM (HUTECH)**.
 
-## Tại sao tôi tạo blog này?
+Đam mê với lập trình, đặc biệt là **Java** và **JavaScript**. Mình tạo blog này để:
+- 📝 Ghi chú lại những gì đã học
+- 💡 Chia sẻ kiến thức với cộng đồng
+- 🚀 Cải thiện kỹ năng viết và tư duy
 
-🎯 **Mục tiêu:** Tạo ra một nguồn tài liệu học tập chất lượng bằng tiếng Việt về lập trình
+## Nội dung blog
 
-📚 **Nội dung chính:**
-- **Java**: Từ cơ bản đến nâng cao, OOP, Spring Framework
-- **JavaScript**: ES6+, React, Node.js, và các framework hiện đại
-- **So sánh ngôn ngữ**: Phân tích ưu nhược điểm giữa các công nghệ
-- **Kinh nghiệm thực tế**: Tips và tricks từ dự án thực tế
+📚 **Chủ đề chính:**
+- Java (OOP, Spring Boot, cơ bản đến nâng cao)
+- JavaScript (ES6+, React, async programming)
+- So sánh ngôn ngữ và tips học tập
+- Các dự án thực hành cho người mới
 
-## Đối tượng hướng đến
+## Mục tiêu
 
-- 🌱 **Người mới bắt đầu**: Các bài viết cơ bản, dễ hiểu
-- 💼 **Lập trình viên đang làm việc**: Kiến thức nâng cao và best practices
-- 🎓 **Sinh viên IT**: Tài liệu tham khảo và hướng dẫn thực hành
-
-## Phong cách viết
-
-✅ **Dễ hiểu**: Giải thích từ cơ bản, ít thuật ngữ phức tạp  
-✅ **Thực tế**: Ví dụ code cụ thể và ứng dụng thực tế  
-✅ **Cập nhật**: Theo kịp xu hướng công nghệ mới nhất  
-✅ **Tương tác**: Khuyến khích thảo luận và góp ý  
+� Tạo tài liệu học tập dễ hiểu bằng tiếng Việt cho sinh viên và người mới bắt đầu lập trình  
 
 ## Hãy kết nối với tôi!
 
