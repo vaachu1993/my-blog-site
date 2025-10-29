@@ -1,7 +1,7 @@
 ---
 title: "Về tôi"
 date: 2025-10-02
-image: images/anhaboutme.jpg
+image: images/avatar.png
 description: "Sinh viên IT đam mê lập trình, chia sẻ kiến thức về Java và JavaScript"
 ---
 
